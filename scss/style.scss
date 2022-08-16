@@ -1,0 +1,31 @@
+@import '_nullstyle';
+@import '_header';
+@import '_content';
+@import '_media';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+//400, 700
+
+:root{
+   --conflower-blue: #498CEC;
+   --color-white: #ffffff;
+}
+
+body{
+   font-family: 'Lato', sans-serif;
+   background-color: var(--conflower-blue);
+}
+
+.container{
+   max-width: 1226px;
+   margin: 0 auto;
+   padding: 0px 15px;
+}
+
+.btn-reset{
+   cursor: pointer;
+   opacity: 0.6;
+   //background-color: transparent;
+   color: var(--color-white);
+}
